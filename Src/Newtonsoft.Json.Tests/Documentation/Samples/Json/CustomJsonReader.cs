@@ -29,7 +29,7 @@ using System.Globalization;
 using System.IO;
 using System.Text;
 using System.Xml;
-using Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json.Linq;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -41,7 +41,7 @@ using NUnit.Framework;
 
 #if !(DNXCORE50 || NET20) || NETSTANDARD1_3 || NETSTANDARD2_0
 
-namespace Newtonsoft.Json.Tests.Documentation.Samples.Json
+namespace Piglet.Newtonsoft.Json.Tests.Documentation.Samples.Json
 {
 
     #region Types

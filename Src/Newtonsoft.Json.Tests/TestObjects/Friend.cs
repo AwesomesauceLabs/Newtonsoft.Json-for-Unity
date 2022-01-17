@@ -25,7 +25,7 @@ using System.Text;
 // OTHER DEALINGS IN THE SOFTWARE.
 #endregion
 
-namespace Newtonsoft.Json.Tests.TestObjects
+namespace Piglet.Newtonsoft.Json.Tests.TestObjects
 {
     public class Friend
     {

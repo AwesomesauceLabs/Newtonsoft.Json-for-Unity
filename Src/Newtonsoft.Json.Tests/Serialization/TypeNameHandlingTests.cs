@@ -24,7 +24,7 @@
 #endregion
 
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Piglet.Newtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 #endif
@@ -34,16 +34,16 @@ using System.Collections.ObjectModel;
 using System.Dynamic;
 #endif
 using System.Text;
-using Newtonsoft.Json.Tests.Linq;
+using Piglet.Newtonsoft.Json.Tests.Linq;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Runtime.Serialization.Formatters;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Tests.TestObjects;
-using Newtonsoft.Json.Tests.TestObjects.Organization;
+using Piglet.Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json.Serialization;
+using Piglet.Newtonsoft.Json.Tests.TestObjects;
+using Piglet.Newtonsoft.Json.Tests.TestObjects.Organization;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -51,13 +51,13 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
-using Newtonsoft.Json.Utilities;
+using Piglet.Newtonsoft.Json.Utilities;
 using System.Net;
 using System.Runtime.Serialization;
 using System.IO;
 using System.Reflection;
 
-namespace Newtonsoft.Json.Tests.Serialization
+namespace Piglet.Newtonsoft.Json.Tests.Serialization
 {
     [TestFixture]
     public class TypeNameHandlingTests : TestFixtureBase

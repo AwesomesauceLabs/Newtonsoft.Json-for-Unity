@@ -23,7 +23,7 @@
 // OTHER DEALINGS IN THE SOFTWARE.
 #endregion
 
-using Newtonsoft.Json.Serialization;
+using Piglet.Newtonsoft.Json.Serialization;
 using System;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
@@ -37,7 +37,7 @@ using NUnit.Framework;
 
 #endif
 
-namespace Newtonsoft.Json.Tests.Documentation.Samples.Serializer
+namespace Piglet.Newtonsoft.Json.Tests.Documentation.Samples.Serializer
 {
     [TestFixture]
     public class ErrorHandlingAttribute : TestFixtureBase

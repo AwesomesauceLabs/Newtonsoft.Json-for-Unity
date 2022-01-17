@@ -26,12 +26,12 @@
 using System;
 using System.Collections.Generic;
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Piglet.Newtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 #endif
 using System.Text;
-using Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json.Linq;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -41,7 +41,7 @@ using NUnit.Framework;
 
 #endif
 
-namespace Newtonsoft.Json.Tests.Linq
+namespace Piglet.Newtonsoft.Json.Tests.Linq
 {
     [TestFixture]
     public class MergeTests : TestFixtureBase

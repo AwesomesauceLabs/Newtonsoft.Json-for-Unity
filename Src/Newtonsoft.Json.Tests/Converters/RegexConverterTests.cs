@@ -27,10 +27,10 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text.RegularExpressions;
-using Newtonsoft.Json.Bson;
-using Newtonsoft.Json.Converters;
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Utilities;
+using Piglet.Newtonsoft.Json.Bson;
+using Piglet.Newtonsoft.Json.Converters;
+using Piglet.Newtonsoft.Json.Serialization;
+using Piglet.Newtonsoft.Json.Utilities;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -38,9 +38,9 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
-using Newtonsoft.Json.Tests.TestObjects;
+using Piglet.Newtonsoft.Json.Tests.TestObjects;
 
-namespace Newtonsoft.Json.Tests.Converters
+namespace Piglet.Newtonsoft.Json.Tests.Converters
 {
     [TestFixture]
     public class RegexConverterTests : TestFixtureBase

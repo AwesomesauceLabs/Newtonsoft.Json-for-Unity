@@ -32,9 +32,9 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Runtime.Serialization;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Tests.TestObjects;
+using Piglet.Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json.Serialization;
+using Piglet.Newtonsoft.Json.Tests.TestObjects;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -43,7 +43,7 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 using NUnit.Framework;
 #endif
 
-namespace Newtonsoft.Json.Tests.Issues
+namespace Piglet.Newtonsoft.Json.Tests.Issues
 {
     [TestFixture]
     public class Issue0198 : TestFixtureBase

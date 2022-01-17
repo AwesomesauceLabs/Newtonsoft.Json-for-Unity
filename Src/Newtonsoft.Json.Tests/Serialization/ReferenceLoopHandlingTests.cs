@@ -38,9 +38,9 @@ using NUnit.Framework;
 using System.Dynamic;
 #endif
 using System.Runtime.Serialization;
-using Newtonsoft.Json.Tests.Linq;
+using Piglet.Newtonsoft.Json.Tests.Linq;
 
-namespace Newtonsoft.Json.Tests.Serialization
+namespace Piglet.Newtonsoft.Json.Tests.Serialization
 {
     [TestFixture]
     public class ReferenceLoopHandlingTests : TestFixtureBase

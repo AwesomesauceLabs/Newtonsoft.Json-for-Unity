@@ -26,7 +26,7 @@
 using System;
 using System.Text;
 
-namespace Newtonsoft.Json.Tests.TestObjects
+namespace Piglet.Newtonsoft.Json.Tests.TestObjects
 {
 #if !(DNXCORE50) || NETSTANDARD2_0
     public class EncodingReadConverter : JsonConverter

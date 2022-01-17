@@ -27,7 +27,7 @@ using System;
 
 #nullable disable
 
-namespace Newtonsoft.Json.Bson
+namespace Piglet.Newtonsoft.Json.Bson
 {
     internal enum BsonBinaryType : byte
     {

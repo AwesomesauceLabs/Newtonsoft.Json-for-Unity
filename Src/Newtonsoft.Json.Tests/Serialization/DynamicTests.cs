@@ -34,9 +34,9 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.Serialization.Formatters;
 using System.Text;
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Tests.TestObjects;
-using Newtonsoft.Json.Utilities;
+using Piglet.Newtonsoft.Json.Serialization;
+using Piglet.Newtonsoft.Json.Tests.TestObjects;
+using Piglet.Newtonsoft.Json.Utilities;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -46,7 +46,7 @@ using NUnit.Framework;
 
 #endif
 
-namespace Newtonsoft.Json.Tests.Serialization
+namespace Piglet.Newtonsoft.Json.Tests.Serialization
 {
     [TestFixture]
     public class DynamicTests : TestFixtureBase

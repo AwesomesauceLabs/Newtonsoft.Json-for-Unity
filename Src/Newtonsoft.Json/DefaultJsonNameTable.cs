@@ -25,7 +25,7 @@
 
 using System;
 
-namespace Newtonsoft.Json
+namespace Piglet.Newtonsoft.Json
 {
     /// <summary>
     /// The default JSON name table implementation.

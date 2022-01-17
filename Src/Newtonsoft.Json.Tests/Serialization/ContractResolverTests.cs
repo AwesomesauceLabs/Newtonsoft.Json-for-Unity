@@ -37,21 +37,21 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 using NUnit.Framework;
 #endif
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Piglet.Newtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 #endif
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Tests.TestObjects;
-using Newtonsoft.Json.Tests.TestObjects.Organization;
+using Piglet.Newtonsoft.Json.Serialization;
+using Piglet.Newtonsoft.Json.Tests.TestObjects;
+using Piglet.Newtonsoft.Json.Tests.TestObjects.Organization;
 using System.Reflection;
-using Newtonsoft.Json.Utilities;
+using Piglet.Newtonsoft.Json.Utilities;
 using System.Globalization;
-using Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json.Linq;
 using System.Text.RegularExpressions;
-using Newtonsoft.Json.Converters;
+using Piglet.Newtonsoft.Json.Converters;
 
-namespace Newtonsoft.Json.Tests.Serialization
+namespace Piglet.Newtonsoft.Json.Tests.Serialization
 {
     public class DynamicContractResolver : DefaultContractResolver
     {

@@ -37,10 +37,10 @@ using Microsoft.CSharp.RuntimeBinder;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Globalization;
-using Newtonsoft.Json.Serialization;
+using Piglet.Newtonsoft.Json.Serialization;
 using System.Diagnostics;
 
-namespace Newtonsoft.Json.Utilities
+namespace Piglet.Newtonsoft.Json.Utilities
 {
     internal static class DynamicUtils
     {

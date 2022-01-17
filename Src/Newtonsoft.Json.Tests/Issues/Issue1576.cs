@@ -28,8 +28,8 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Serialization;
+using Piglet.Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json.Serialization;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -38,7 +38,7 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 using NUnit.Framework;
 #endif
 
-namespace Newtonsoft.Json.Tests.Issues
+namespace Piglet.Newtonsoft.Json.Tests.Issues
 {
     [TestFixture]
     public class Issue1576 : TestFixtureBase

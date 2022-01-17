@@ -25,7 +25,7 @@
 
 using System;
 using System.Collections.Generic;
-using Newtonsoft.Json.Linq.JsonPath;
+using Piglet.Newtonsoft.Json.Linq.JsonPath;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -33,15 +33,15 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
-using Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json.Linq;
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Piglet.Newtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 
 #endif
 
-namespace Newtonsoft.Json.Tests.Linq.JsonPath
+namespace Piglet.Newtonsoft.Json.Tests.Linq.JsonPath
 {
     [TestFixture]
     public class JPathParseTests : TestFixtureBase

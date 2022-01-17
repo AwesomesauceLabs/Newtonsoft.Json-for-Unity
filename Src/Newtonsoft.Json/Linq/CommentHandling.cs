@@ -23,7 +23,7 @@
 // OTHER DEALINGS IN THE SOFTWARE.
 #endregion
 
-namespace Newtonsoft.Json.Linq
+namespace Piglet.Newtonsoft.Json.Linq
 {
     /// <summary>
     /// Specifies how JSON comments are handled when loading JSON.

@@ -25,9 +25,9 @@
 
 using System;
 using System.Runtime.Serialization;
-using Newtonsoft.Json.Tests.TestObjects.Organization;
+using Piglet.Newtonsoft.Json.Tests.TestObjects.Organization;
 
-namespace Newtonsoft.Json.Tests.TestObjects
+namespace Piglet.Newtonsoft.Json.Tests.TestObjects
 {
     [Serializable]
     public class ISerializableTestObject : ISerializable

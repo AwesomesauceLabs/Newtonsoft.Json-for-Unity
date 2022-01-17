@@ -25,7 +25,7 @@
 
 using System.ComponentModel;
 
-namespace Newtonsoft.Json.Tests.TestObjects
+namespace Piglet.Newtonsoft.Json.Tests.TestObjects
 {
     public class ObservableObject : INotifyPropertyChanged
     {

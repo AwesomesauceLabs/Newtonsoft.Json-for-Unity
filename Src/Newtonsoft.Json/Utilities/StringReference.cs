@@ -25,7 +25,7 @@
 
 using System;
 
-namespace Newtonsoft.Json.Utilities
+namespace Piglet.Newtonsoft.Json.Utilities
 {
     internal readonly struct StringReference
     {

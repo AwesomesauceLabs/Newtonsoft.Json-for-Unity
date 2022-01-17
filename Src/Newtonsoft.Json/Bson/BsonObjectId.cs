@@ -24,11 +24,11 @@
 #endregion
 
 using System;
-using Newtonsoft.Json.Utilities;
+using Piglet.Newtonsoft.Json.Utilities;
 
 #nullable disable
 
-namespace Newtonsoft.Json.Bson
+namespace Piglet.Newtonsoft.Json.Bson
 {
     /// <summary>
     /// Represents a BSON Oid (object id).

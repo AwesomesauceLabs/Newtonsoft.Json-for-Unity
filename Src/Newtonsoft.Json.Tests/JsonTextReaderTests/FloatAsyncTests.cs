@@ -36,7 +36,7 @@ using NUnit.Framework;
 using System.IO;
 using System.Threading.Tasks;
 
-namespace Newtonsoft.Json.Tests.JsonTextReaderTests
+namespace Piglet.Newtonsoft.Json.Tests.JsonTextReaderTests
 {
     [TestFixture]
 #if !DNXCORE50

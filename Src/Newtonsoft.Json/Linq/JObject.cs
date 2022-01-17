@@ -35,17 +35,17 @@ using System.Dynamic;
 using System.Linq.Expressions;
 #endif
 using System.IO;
-using Newtonsoft.Json.Utilities;
+using Piglet.Newtonsoft.Json.Utilities;
 using System.Globalization;
 using System.Runtime.CompilerServices;
 using System.Diagnostics.CodeAnalysis;
 #if !HAVE_LINQ
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Piglet.Newtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 #endif
 
-namespace Newtonsoft.Json.Linq
+namespace Piglet.Newtonsoft.Json.Linq
 {
     /// <summary>
     /// Represents a JSON object.

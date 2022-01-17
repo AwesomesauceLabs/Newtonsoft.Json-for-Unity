@@ -26,11 +26,11 @@
 #if !(PORTABLE || DNXCORE50 || ENABLE_IL2CPP)
 using System.Reflection;
 using System.Reflection.Emit;
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Tests.TestObjects;
+using Piglet.Newtonsoft.Json.Serialization;
+using Piglet.Newtonsoft.Json.Tests.TestObjects;
 using System;
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Piglet.Newtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 #endif
@@ -43,7 +43,7 @@ using NUnit.Framework;
 
 #endif
 
-namespace Newtonsoft.Json.Tests.Serialization
+namespace Piglet.Newtonsoft.Json.Tests.Serialization
 {
     [TestFixture]
     public class DynamicConcreteTests : TestFixtureBase

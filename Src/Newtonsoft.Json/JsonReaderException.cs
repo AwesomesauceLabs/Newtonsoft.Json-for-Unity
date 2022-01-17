@@ -26,9 +26,9 @@
 using System;
 using System.Globalization;
 using System.Runtime.Serialization;
-using Newtonsoft.Json.Utilities;
+using Piglet.Newtonsoft.Json.Utilities;
 
-namespace Newtonsoft.Json
+namespace Piglet.Newtonsoft.Json
 {
     /// <summary>
     /// The exception thrown when an error occurs while reading JSON text.

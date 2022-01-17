@@ -26,11 +26,11 @@
 using System;
 using System.Diagnostics;
 using BenchmarkDotNet.Running;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Tests.Benchmarks;
+using Piglet.Newtonsoft.Json;
+using Piglet.Newtonsoft.Json.Tests.Benchmarks;
 using System.Reflection;
 
-namespace Newtonsoft.Json.TestConsole
+namespace Piglet.Newtonsoft.Json.TestConsole
 {
     public class Program
     {

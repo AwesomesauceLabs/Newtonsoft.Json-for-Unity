@@ -34,20 +34,20 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
-using Newtonsoft.Json.Converters;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Tests.Serialization;
-using Newtonsoft.Json.Tests.TestObjects;
-using Newtonsoft.Json.Tests.TestObjects.Organization;
+using Piglet.Newtonsoft.Json.Converters;
+using Piglet.Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json.Tests.Serialization;
+using Piglet.Newtonsoft.Json.Tests.TestObjects;
+using Piglet.Newtonsoft.Json.Tests.TestObjects.Organization;
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Piglet.Newtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 #endif
 using System.IO;
 using System.Runtime.Serialization;
 
-namespace Newtonsoft.Json.Tests.Linq
+namespace Piglet.Newtonsoft.Json.Tests.Linq
 {
     [TestFixture]
     public class LinqToJsonTest : TestFixtureBase

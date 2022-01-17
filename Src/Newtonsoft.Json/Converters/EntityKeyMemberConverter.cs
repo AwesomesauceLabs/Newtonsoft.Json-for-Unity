@@ -25,12 +25,12 @@
 
 #if HAVE_ENTITY_FRAMEWORK
 using System;
-using Newtonsoft.Json.Serialization;
+using Piglet.Newtonsoft.Json.Serialization;
 using System.Globalization;
-using Newtonsoft.Json.Utilities;
+using Piglet.Newtonsoft.Json.Utilities;
 using System.Diagnostics;
 
-namespace Newtonsoft.Json.Converters
+namespace Piglet.Newtonsoft.Json.Converters
 {
     /// <summary>
     /// Converts an Entity Framework <see cref="T:System.Data.EntityKeyMember"/> to and from JSON.

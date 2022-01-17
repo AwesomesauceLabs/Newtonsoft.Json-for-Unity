@@ -36,7 +36,7 @@ using NUnit.Framework;
 #endif
 using File = System.IO.File;
 
-namespace Newtonsoft.Json.Tests.Documentation.Samples.Serializer
+namespace Piglet.Newtonsoft.Json.Tests.Documentation.Samples.Serializer
 {
     [TestFixture]
     public class DeserializeWithJsonSerializerFromFile : TestFixtureBase

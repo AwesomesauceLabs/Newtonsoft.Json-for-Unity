@@ -26,9 +26,9 @@
 #if !(PORTABLE || DNXCORE50 || PORTABLE40 || UNITY_LTS) || NETSTANDARD2_0
 using System.IO;
 using System.Text;
-using Newtonsoft.Json.Bson;
-using Newtonsoft.Json.Converters;
-using Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json.Bson;
+using Piglet.Newtonsoft.Json.Converters;
+using Piglet.Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 #if DNXCORE50
@@ -41,12 +41,12 @@ using NUnit.Framework;
 using System.Data;
 using System.Data.SqlTypes;
 using System.Linq;
-using Newtonsoft.Json.Tests.TestObjects;
+using Piglet.Newtonsoft.Json.Tests.TestObjects;
 #if !(NET20 || NET35)
 using System.Numerics;
 #endif
 
-namespace Newtonsoft.Json.Tests.Converters
+namespace Piglet.Newtonsoft.Json.Tests.Converters
 {
     public class DataTableConverterTests : TestFixtureBase
     {

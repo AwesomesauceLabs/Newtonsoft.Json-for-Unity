@@ -38,7 +38,7 @@ using NUnit.Framework;
 
 #endif
 
-namespace Newtonsoft.Json.Tests.Documentation.Samples.Xml
+namespace Piglet.Newtonsoft.Json.Tests.Documentation.Samples.Xml
 {
     [TestFixture]
     public class ConvertJsonToXml : TestFixtureBase

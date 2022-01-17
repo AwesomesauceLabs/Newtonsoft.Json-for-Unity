@@ -29,11 +29,11 @@ using System.Globalization;
 #if HAVE_BIG_INTEGER
 using System.Numerics;
 #endif
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Utilities;
+using Piglet.Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json.Utilities;
 using System.Xml;
-using Newtonsoft.Json.Converters;
-using Newtonsoft.Json.Serialization;
+using Piglet.Newtonsoft.Json.Converters;
+using Piglet.Newtonsoft.Json.Serialization;
 using System.Text;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -42,7 +42,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Xml.Linq;
 #endif
 
-namespace Newtonsoft.Json
+namespace Piglet.Newtonsoft.Json
 {
     /// <summary>
     /// Provides methods for converting between .NET types and JSON types.

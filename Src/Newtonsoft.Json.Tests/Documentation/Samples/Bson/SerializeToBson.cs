@@ -27,8 +27,8 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
-using Newtonsoft.Json.Bson;
-using Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json.Bson;
+using Piglet.Newtonsoft.Json.Linq;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -38,7 +38,7 @@ using NUnit.Framework;
 
 #endif
 
-namespace Newtonsoft.Json.Tests.Documentation.Samples.Bson
+namespace Piglet.Newtonsoft.Json.Tests.Documentation.Samples.Bson
 {
     [TestFixture]
     public class SerializeToBson : TestFixtureBase

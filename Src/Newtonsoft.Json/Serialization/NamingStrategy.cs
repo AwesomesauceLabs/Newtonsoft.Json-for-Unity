@@ -23,7 +23,7 @@
 // OTHER DEALINGS IN THE SOFTWARE.
 #endregion
 
-namespace Newtonsoft.Json.Serialization
+namespace Piglet.Newtonsoft.Json.Serialization
 {
     /// <summary>
     /// A base class for resolving how property names and dictionary keys are serialized.

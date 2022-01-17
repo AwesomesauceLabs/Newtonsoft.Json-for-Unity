@@ -27,7 +27,7 @@
 
 using System;
 using System.Globalization;
-using Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json.Linq;
 #if !PORTABLE || NETSTANDARD1_3 || NETSTANDARD2_0
 using System.Numerics;
 #endif
@@ -45,10 +45,10 @@ using System.Net.Sockets;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Linq;
-using Newtonsoft.Json.Tests.TestObjects.JsonTextReaderTests;
-using Newtonsoft.Json.Utilities;
+using Piglet.Newtonsoft.Json.Tests.TestObjects.JsonTextReaderTests;
+using Piglet.Newtonsoft.Json.Utilities;
 
-namespace Newtonsoft.Json.Tests.JsonTextReaderTests
+namespace Piglet.Newtonsoft.Json.Tests.JsonTextReaderTests
 {
     [TestFixture]
 #if !DNXCORE50

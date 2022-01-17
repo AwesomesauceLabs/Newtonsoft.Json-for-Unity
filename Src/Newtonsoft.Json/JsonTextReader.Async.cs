@@ -32,11 +32,11 @@ using System.Threading;
 using System.Numerics;
 #endif
 using System.Threading.Tasks;
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Utilities;
+using Piglet.Newtonsoft.Json.Serialization;
+using Piglet.Newtonsoft.Json.Utilities;
 using System.Diagnostics;
 
-namespace Newtonsoft.Json
+namespace Piglet.Newtonsoft.Json
 {
     public partial class JsonTextReader
     {

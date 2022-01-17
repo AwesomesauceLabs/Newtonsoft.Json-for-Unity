@@ -29,7 +29,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Text;
-using Newtonsoft.Json.Utilities;
+using Piglet.Newtonsoft.Json.Utilities;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -39,7 +39,7 @@ using TestCaseSource = Xunit.MemberDataAttribute;
 using NUnit.Framework;
 #endif
 
-namespace Newtonsoft.Json.Tests.Utilities
+namespace Piglet.Newtonsoft.Json.Tests.Utilities
 {
     public class EnumUtilsTests : TestFixtureBase
     {

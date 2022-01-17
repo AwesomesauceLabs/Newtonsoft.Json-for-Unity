@@ -23,9 +23,9 @@
 // OTHER DEALINGS IN THE SOFTWARE.
 #endregion
 
-using Newtonsoft.Json.Utilities;
+using Piglet.Newtonsoft.Json.Utilities;
 
-namespace Newtonsoft.Json.Serialization
+namespace Piglet.Newtonsoft.Json.Serialization
 {
     /// <summary>
     /// A camel case naming strategy.

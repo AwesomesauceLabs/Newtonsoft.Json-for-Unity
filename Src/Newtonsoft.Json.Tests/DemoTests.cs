@@ -34,10 +34,10 @@ using System.Data;
 using System.IO;
 using System.Linq;
 using System.Text;
-using Newtonsoft.Json.Converters;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Schema;
-using Newtonsoft.Json.Serialization;
+using Piglet.Newtonsoft.Json.Converters;
+using Piglet.Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json.Schema;
+using Piglet.Newtonsoft.Json.Serialization;
 #if !(NET20 || NET35 || NET40)
 using System.Threading.Tasks;
 #endif
@@ -50,7 +50,7 @@ using NUnit.Framework;
 
 #endif
 
-namespace Newtonsoft.Json.Tests
+namespace Piglet.Newtonsoft.Json.Tests
 {
     [TestFixture]
     public class DemoTests : TestFixtureBase

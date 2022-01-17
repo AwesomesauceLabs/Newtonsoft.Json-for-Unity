@@ -26,7 +26,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Newtonsoft.Json.Serialization
+namespace Piglet.Newtonsoft.Json.Serialization
 {
     /// <summary>
     /// Provides methods to get attributes.

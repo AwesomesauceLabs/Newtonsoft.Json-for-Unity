@@ -28,7 +28,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Piglet.Newtonsoft.Json.Utilities.LinqBridge;
 #endif
 #if !(NET20 || NET35 || PORTABLE) || NETSTANDARD1_3 || NETSTANDARD2_0
 using System.Numerics;
@@ -43,12 +43,12 @@ using NUnit.Framework;
 #endif
 using System.Xml;
 using System.Xml.Schema;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Schema;
-using Newtonsoft.Json.Utilities;
+using Piglet.Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json.Schema;
+using Piglet.Newtonsoft.Json.Utilities;
 using ValidationEventArgs = Newtonsoft.Json.Schema.ValidationEventArgs;
 
-namespace Newtonsoft.Json.Tests
+namespace Piglet.Newtonsoft.Json.Tests
 {
     [TestFixture]
     public class JsonValidatingReaderTests : TestFixtureBase

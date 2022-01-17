@@ -28,7 +28,7 @@ using System.IO;
 using System.Xml;
 using System.Globalization;
 
-namespace Newtonsoft.Json.Utilities
+namespace Piglet.Newtonsoft.Json.Utilities
 {
     internal static class DateTimeUtils
     {

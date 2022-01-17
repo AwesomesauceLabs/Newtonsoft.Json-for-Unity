@@ -29,8 +29,8 @@ using System.Text;
 #if !(PORTABLE || PORTABLE40 || NET35 || NET20) || NETSTANDARD1_3 || NETSTANDARD2_0
 using System.Numerics;
 #endif
-using Newtonsoft.Json.Linq.JsonPath;
-using Newtonsoft.Json.Tests.Bson;
+using Piglet.Newtonsoft.Json.Linq.JsonPath;
+using Piglet.Newtonsoft.Json.Tests.Bson;
 #if HAVE_REGEX_TIMEOUTS
 using System.Text.RegularExpressions;
 #endif
@@ -42,14 +42,14 @@ using TestCaseSource = Xunit.MemberDataAttribute;
 #else
 using NUnit.Framework;
 #endif
-using Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json.Linq;
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Piglet.Newtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 #endif
 
-namespace Newtonsoft.Json.Tests.Linq.JsonPath
+namespace Piglet.Newtonsoft.Json.Tests.Linq.JsonPath
 {
     [TestFixture]
     public class JPathExecuteTests : TestFixtureBase

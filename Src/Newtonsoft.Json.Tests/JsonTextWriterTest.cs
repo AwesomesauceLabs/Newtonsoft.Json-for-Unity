@@ -28,7 +28,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Globalization;
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Piglet.Newtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 #endif
@@ -42,16 +42,16 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
-using Newtonsoft.Json;
+using Piglet.Newtonsoft.Json;
 using System.IO;
 using System.Reflection;
-using Newtonsoft.Json.Converters;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Tests.TestObjects;
-using Newtonsoft.Json.Tests.TestObjects.JsonTextReaderTests;
-using Newtonsoft.Json.Utilities;
+using Piglet.Newtonsoft.Json.Converters;
+using Piglet.Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json.Tests.TestObjects;
+using Piglet.Newtonsoft.Json.Tests.TestObjects.JsonTextReaderTests;
+using Piglet.Newtonsoft.Json.Utilities;
 
-namespace Newtonsoft.Json.Tests
+namespace Piglet.Newtonsoft.Json.Tests
 {
     [TestFixture]
     public class JsonTextWriterTest : TestFixtureBase

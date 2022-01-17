@@ -28,13 +28,13 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
 using System.IO;
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Utilities;
-using Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json.Serialization;
+using Piglet.Newtonsoft.Json.Utilities;
+using Piglet.Newtonsoft.Json.Linq;
 
 #nullable disable
 
-namespace Newtonsoft.Json.Bson
+namespace Piglet.Newtonsoft.Json.Bson
 {
     /// <summary>
     /// Represents a reader that provides fast, non-cached, forward-only access to serialized BSON data.

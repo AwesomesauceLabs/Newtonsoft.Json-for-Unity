@@ -32,11 +32,11 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
-using Newtonsoft.Json.Schema;
+using Piglet.Newtonsoft.Json.Schema;
 using System.IO;
-using Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json.Linq;
 
-namespace Newtonsoft.Json.Tests.Schema
+namespace Piglet.Newtonsoft.Json.Tests.Schema
 {
     [TestFixture]
     public class JsonSchemaBuilderTests : TestFixtureBase

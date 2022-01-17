@@ -26,9 +26,9 @@
 #if !(PORTABLE || PORTABLE40 || DNXCORE50 || UNITY_LTS)
 using NUnit.Framework;
 using System.Web.UI;
-using Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json.Linq;
 
-namespace Newtonsoft.Json.Tests.Linq.ComponentModel
+namespace Piglet.Newtonsoft.Json.Tests.Linq.ComponentModel
 {
     [TestFixture]
     public class BindingTests : TestFixtureBase

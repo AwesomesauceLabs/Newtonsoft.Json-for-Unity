@@ -37,11 +37,11 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
-using Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json.Linq;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Newtonsoft.Json.Tests.Linq
+namespace Piglet.Newtonsoft.Json.Tests.Linq
 {
     [TestFixture]
     public class JTokenWriterAsyncTests : TestFixtureBase

@@ -37,7 +37,7 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 using NUnit.Framework;
 #endif
 
-namespace Newtonsoft.Json.Tests.Issues
+namespace Piglet.Newtonsoft.Json.Tests.Issues
 {
     [TestFixture]
     public class Issue1512 : TestFixtureBase

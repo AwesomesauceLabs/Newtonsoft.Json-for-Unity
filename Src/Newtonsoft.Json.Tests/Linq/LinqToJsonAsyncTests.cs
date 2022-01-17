@@ -35,13 +35,13 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
-using Newtonsoft.Json.Converters;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Tests.TestObjects.Organization;
+using Piglet.Newtonsoft.Json.Converters;
+using Piglet.Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json.Tests.TestObjects.Organization;
 using System.Linq;
 using System.IO;
 
-namespace Newtonsoft.Json.Tests.Linq
+namespace Piglet.Newtonsoft.Json.Tests.Linq
 {
     [TestFixture]
     public class LinqToJsonAsyncTests : TestFixtureBase

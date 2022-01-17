@@ -25,9 +25,9 @@
 
 using System.Collections.Generic;
 using System.Runtime.Serialization;
-using Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json.Linq;
 
-namespace Newtonsoft.Json.Tests.TestObjects
+namespace Piglet.Newtonsoft.Json.Tests.TestObjects
 {
     public class DirectoryAccount
     {

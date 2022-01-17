@@ -26,14 +26,14 @@
 using System;
 using System.Collections.Generic;
 #if !HAVE_LINQ
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Piglet.Newtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 #endif
-using Newtonsoft.Json.Utilities;
+using Piglet.Newtonsoft.Json.Utilities;
 using System.Collections;
 
-namespace Newtonsoft.Json.Linq
+namespace Piglet.Newtonsoft.Json.Linq
 {
     /// <summary>
     /// Represents a collection of <see cref="JToken"/> objects.

@@ -27,11 +27,11 @@ using System;
 using System.Globalization;
 using System.ComponentModel;
 using System.Collections.Generic;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Utilities;
-using Newtonsoft.Json.Serialization;
+using Piglet.Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json.Utilities;
+using Piglet.Newtonsoft.Json.Serialization;
 #if !HAVE_LINQ
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Piglet.Newtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 
@@ -39,7 +39,7 @@ using System.Linq;
 
 #nullable disable
 
-namespace Newtonsoft.Json.Schema
+namespace Piglet.Newtonsoft.Json.Schema
 {
     /// <summary>
     /// <para>

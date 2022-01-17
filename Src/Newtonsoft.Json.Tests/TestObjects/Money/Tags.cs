@@ -25,7 +25,7 @@
 
 #if !(NET35 || NET20 || DNXCORE50) || NETSTANDARD1_3 || NETSTANDARD2_0
 
-namespace Newtonsoft.Json.Tests.TestObjects.Money
+namespace Piglet.Newtonsoft.Json.Tests.TestObjects.Money
 {
     public static class Tags
     {

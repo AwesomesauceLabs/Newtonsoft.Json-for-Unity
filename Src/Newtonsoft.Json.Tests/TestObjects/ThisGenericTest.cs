@@ -26,7 +26,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Newtonsoft.Json.Tests.TestObjects
+namespace Piglet.Newtonsoft.Json.Tests.TestObjects
 {
     public class ThisGenericTest<T> where T : IKeyValueId
     {

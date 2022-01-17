@@ -34,11 +34,11 @@ using System.Threading;
 #if !(NET20 || NET35 || NET40 || PORTABLE40)
 using System.Threading.Tasks;
 #endif
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json;
+using Piglet.Newtonsoft.Json.Linq;
 using System.Xml;
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Utilities;
+using Piglet.Newtonsoft.Json.Serialization;
+using Piglet.Newtonsoft.Json.Utilities;
 #if !NET20
 using System.Xml.Linq;
 #endif
@@ -50,7 +50,7 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 using NUnit.Framework;
 #endif
 
-namespace Newtonsoft.Json.Tests.Issues
+namespace Piglet.Newtonsoft.Json.Tests.Issues
 {
     [TestFixture]
     public class Issue1460 : TestFixtureBase

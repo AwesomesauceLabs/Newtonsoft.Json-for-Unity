@@ -30,10 +30,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Text;
-using Newtonsoft.Json.Serialization;
+using Piglet.Newtonsoft.Json.Serialization;
 using System.Diagnostics;
 
-namespace Newtonsoft.Json.Utilities
+namespace Piglet.Newtonsoft.Json.Utilities
 {
     internal class FSharpFunction
     {

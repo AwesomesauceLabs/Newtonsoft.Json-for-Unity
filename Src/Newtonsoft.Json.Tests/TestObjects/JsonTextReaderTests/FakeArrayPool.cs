@@ -25,12 +25,12 @@
 
 using System.Collections.Generic;
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Piglet.Newtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 #endif
 
-namespace Newtonsoft.Json.Tests.TestObjects.JsonTextReaderTests
+namespace Piglet.Newtonsoft.Json.Tests.TestObjects.JsonTextReaderTests
 {
     public class FakeArrayPool : IArrayPool<char>
     {

@@ -36,13 +36,13 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Utilities;
-using Newtonsoft.Json.Tests.TestObjects;
-using Newtonsoft.Json.Tests.TestObjects.Organization;
-using Newtonsoft.Json.Tests.Serialization;
+using Piglet.Newtonsoft.Json.Serialization;
+using Piglet.Newtonsoft.Json.Utilities;
+using Piglet.Newtonsoft.Json.Tests.TestObjects;
+using Piglet.Newtonsoft.Json.Tests.TestObjects.Organization;
+using Piglet.Newtonsoft.Json.Tests.Serialization;
 
-namespace Newtonsoft.Json.Tests.Utilities
+namespace Piglet.Newtonsoft.Json.Tests.Utilities
 {
     [TestFixture]
     public class ExpressionReflectionDelegateFactoryTests : TestFixtureBase

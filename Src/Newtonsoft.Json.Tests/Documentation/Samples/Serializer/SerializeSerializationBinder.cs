@@ -25,7 +25,7 @@
 
 using System;
 using System.Collections.Generic;
-using Newtonsoft.Json.Serialization;
+using Piglet.Newtonsoft.Json.Serialization;
 using System.Runtime.Serialization;
 using System.Text;
 #if DNXCORE50
@@ -36,13 +36,13 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 using NUnit.Framework;
 #endif
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Piglet.Newtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 
 #endif
 
-namespace Newtonsoft.Json.Tests.Documentation.Samples.Serializer
+namespace Piglet.Newtonsoft.Json.Tests.Documentation.Samples.Serializer
 {
     [TestFixture]
     public class SerializeSerializationBinder : TestFixtureBase

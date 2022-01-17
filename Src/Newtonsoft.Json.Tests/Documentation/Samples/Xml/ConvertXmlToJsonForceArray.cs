@@ -38,7 +38,7 @@ using NUnit.Framework;
 
 #if !(NET20 || DNXCORE50 || PORTABLE || PORTABLE40 || UNITY_LTS) || NETSTANDARD2_0
 
-namespace Newtonsoft.Json.Tests.Documentation.Samples.Xml
+namespace Piglet.Newtonsoft.Json.Tests.Documentation.Samples.Xml
 {
     [TestFixture]
     public class ConvertXmlToJsonForceArray : TestFixtureBase

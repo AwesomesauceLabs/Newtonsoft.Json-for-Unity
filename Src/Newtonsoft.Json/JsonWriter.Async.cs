@@ -32,9 +32,9 @@ using System.Threading;
 using System.Numerics;
 #endif
 using System.Threading.Tasks;
-using Newtonsoft.Json.Utilities;
+using Piglet.Newtonsoft.Json.Utilities;
 
-namespace Newtonsoft.Json
+namespace Piglet.Newtonsoft.Json
 {
     public abstract partial class JsonWriter
     {

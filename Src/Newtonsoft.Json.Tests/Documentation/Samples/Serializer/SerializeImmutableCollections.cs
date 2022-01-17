@@ -37,12 +37,12 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 using NUnit.Framework;
 #endif
 using System.Runtime.Serialization;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Tests.Serialization;
+using Piglet.Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json.Serialization;
+using Piglet.Newtonsoft.Json.Tests.Serialization;
 using System.Collections.Immutable;
 
-namespace Newtonsoft.Json.Tests.Documentation.Samples.Serializer
+namespace Piglet.Newtonsoft.Json.Tests.Documentation.Samples.Serializer
 {
     [TestFixture]
     public class SerializeImmutableCollections : TestFixtureBase

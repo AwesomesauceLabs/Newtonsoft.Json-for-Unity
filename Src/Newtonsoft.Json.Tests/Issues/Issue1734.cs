@@ -24,8 +24,8 @@
 #endregion
 
 #if !(DNXCORE50 || PORTABLE40) || NETSTANDARD1_3 || NETSTANDARD2_0
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Linq.JsonPath;
+using Piglet.Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json.Linq.JsonPath;
 using System;
 using System.Collections.Generic;
 using System.Xml;
@@ -41,7 +41,7 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 using NUnit.Framework;
 #endif
 
-namespace Newtonsoft.Json.Tests.Issues
+namespace Piglet.Newtonsoft.Json.Tests.Issues
 {
     [TestFixture]
     public class Issue1734

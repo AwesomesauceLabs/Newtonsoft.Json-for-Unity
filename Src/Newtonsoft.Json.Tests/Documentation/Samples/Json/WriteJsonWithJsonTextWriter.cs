@@ -36,7 +36,7 @@ using NUnit.Framework;
 
 #endif
 
-namespace Newtonsoft.Json.Tests.Documentation.Samples.Json
+namespace Piglet.Newtonsoft.Json.Tests.Documentation.Samples.Json
 {
     [TestFixture]
     public class WriteJsonWithJsonTextWriter : TestFixtureBase

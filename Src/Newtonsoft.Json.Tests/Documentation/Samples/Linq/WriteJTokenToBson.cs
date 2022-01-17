@@ -23,8 +23,8 @@
 // OTHER DEALINGS IN THE SOFTWARE.
 #endregion
 
-using Newtonsoft.Json.Bson;
-using Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json.Bson;
+using Piglet.Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -38,7 +38,7 @@ using NUnit.Framework;
 
 #endif
 
-namespace Newtonsoft.Json.Tests.Documentation.Samples.Linq
+namespace Piglet.Newtonsoft.Json.Tests.Documentation.Samples.Linq
 {
     [TestFixture]
     public class WriteJTokenToBson : TestFixtureBase

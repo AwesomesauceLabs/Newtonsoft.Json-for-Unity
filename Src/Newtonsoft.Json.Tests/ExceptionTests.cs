@@ -28,7 +28,7 @@ using System.IO;
 #if !(PORTABLE || DNXCORE50) || NETSTANDARD2_0
 using System.Runtime.Serialization.Formatters.Binary;
 #endif
-using Newtonsoft.Json.Schema;
+using Piglet.Newtonsoft.Json.Schema;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -38,7 +38,7 @@ using NUnit.Framework;
 
 #endif
 
-namespace Newtonsoft.Json.Tests
+namespace Piglet.Newtonsoft.Json.Tests
 {
     [TestFixture]
     public class ExceptionTests : TestFixtureBase

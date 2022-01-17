@@ -1,4 +1,4 @@
-namespace Newtonsoft.Json.Linq
+namespace Piglet.Newtonsoft.Json.Linq
 {
     /// <summary>
     /// Specifies how JSON arrays are merged together.

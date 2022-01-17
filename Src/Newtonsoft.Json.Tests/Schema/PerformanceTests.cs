@@ -29,7 +29,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Text;
-using Newtonsoft.Json.Schema;
+using Piglet.Newtonsoft.Json.Schema;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -39,7 +39,7 @@ using NUnit.Framework;
 
 #endif
 
-namespace Newtonsoft.Json.Tests.Schema
+namespace Piglet.Newtonsoft.Json.Tests.Schema
 {
     [TestFixture]
     public class PerformanceTests : TestFixtureBase

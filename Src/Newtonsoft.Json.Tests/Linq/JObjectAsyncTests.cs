@@ -26,7 +26,7 @@
 #if !(NET20 || NET35 || NET40 || PORTABLE40)
 
 using System.Collections.Generic;
-using Newtonsoft.Json.Tests.TestObjects;
+using Piglet.Newtonsoft.Json.Tests.TestObjects;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -34,11 +34,11 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
-using Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json.Linq;
 using System.IO;
 using System.Threading.Tasks;
 
-namespace Newtonsoft.Json.Tests.Linq
+namespace Piglet.Newtonsoft.Json.Tests.Linq
 {
     [TestFixture]
     public class JObjectAsyncTests : TestFixtureBase

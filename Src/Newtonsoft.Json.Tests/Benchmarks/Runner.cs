@@ -41,7 +41,7 @@ using NUnit.Framework;
 
 #endif
 
-namespace Newtonsoft.Json.Tests.Benchmarks
+namespace Piglet.Newtonsoft.Json.Tests.Benchmarks
 {
     [TestFixture]
     public class Runner : TestFixtureBase

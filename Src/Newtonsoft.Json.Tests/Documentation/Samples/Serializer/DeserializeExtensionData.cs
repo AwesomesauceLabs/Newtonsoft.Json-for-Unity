@@ -34,9 +34,9 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 using NUnit.Framework;
 #endif
 using System.Runtime.Serialization;
-using Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json.Linq;
 
-namespace Newtonsoft.Json.Tests.Documentation.Samples.Serializer
+namespace Piglet.Newtonsoft.Json.Tests.Documentation.Samples.Serializer
 {
     [TestFixture]
     public class DeserializeExtensionData : TestFixtureBase

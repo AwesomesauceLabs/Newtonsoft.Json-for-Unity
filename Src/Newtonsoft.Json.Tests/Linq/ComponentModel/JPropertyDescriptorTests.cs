@@ -31,9 +31,9 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
-using Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json.Linq;
 
-namespace Newtonsoft.Json.Tests.Linq.ComponentModel
+namespace Piglet.Newtonsoft.Json.Tests.Linq.ComponentModel
 {
     [TestFixture]
     public class JPropertyDescriptorTests : TestFixtureBase

@@ -25,12 +25,12 @@
 
 using System;
 using System.Collections.Generic;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Utilities;
+using Piglet.Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json.Utilities;
 
 #nullable disable
 
-namespace Newtonsoft.Json.Schema
+namespace Piglet.Newtonsoft.Json.Schema
 {
     /// <summary>
     /// <para>

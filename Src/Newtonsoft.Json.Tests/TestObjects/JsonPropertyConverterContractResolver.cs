@@ -24,10 +24,10 @@
 #endregion
 
 using System.Reflection;
-using Newtonsoft.Json.Converters;
-using Newtonsoft.Json.Serialization;
+using Piglet.Newtonsoft.Json.Converters;
+using Piglet.Newtonsoft.Json.Serialization;
 
-namespace Newtonsoft.Json.Tests.TestObjects
+namespace Piglet.Newtonsoft.Json.Tests.TestObjects
 {
     public class JsonPropertyConverterContractResolver : DefaultContractResolver
     {

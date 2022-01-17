@@ -25,7 +25,7 @@
 
 using System;
 using System.IO;
-using Newtonsoft.Json.Converters;
+using Piglet.Newtonsoft.Json.Converters;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -35,7 +35,7 @@ using NUnit.Framework;
 
 #endif
 
-namespace Newtonsoft.Json.Tests.Converters
+namespace Piglet.Newtonsoft.Json.Tests.Converters
 {
     public class VersionClass
     {

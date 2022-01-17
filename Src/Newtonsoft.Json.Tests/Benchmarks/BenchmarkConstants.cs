@@ -25,7 +25,7 @@
 
 #if HAVE_BENCHMARKS
 
-namespace Newtonsoft.Json.Tests.Benchmarks
+namespace Piglet.Newtonsoft.Json.Tests.Benchmarks
 {
     public static class BenchmarkConstants
     {

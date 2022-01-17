@@ -32,9 +32,9 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
-using Newtonsoft.Json.Utilities;
+using Piglet.Newtonsoft.Json.Utilities;
 
-namespace Newtonsoft.Json.Tests.Utilities
+namespace Piglet.Newtonsoft.Json.Tests.Utilities
 {
     [TestFixture]
     public class ConvertUtilsTests : TestFixtureBase

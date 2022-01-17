@@ -11,7 +11,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Newtonsoft.Json.Tests.LinqToSql
+namespace Piglet.Newtonsoft.Json.Tests.LinqToSql
 {
 	using System.Data.Linq;
 	using System.Data.Linq.Mapping;

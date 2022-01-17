@@ -28,14 +28,14 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Piglet.Newtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 #endif
 using System.Reflection;
 using System.Text;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Schema;
+using Piglet.Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json.Schema;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -45,7 +45,7 @@ using TestCaseSource = Xunit.MemberDataAttribute;
 using NUnit.Framework;
 #endif
 
-namespace Newtonsoft.Json.Tests.Schema
+namespace Piglet.Newtonsoft.Json.Tests.Schema
 {
     public class JsonSchemaSpecTest
     {

@@ -33,8 +33,8 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Newtonsoft.Json.Tests.TestObjects.JsonTextReaderTests;
-using Newtonsoft.Json.Utilities;
+using Piglet.Newtonsoft.Json.Tests.TestObjects.JsonTextReaderTests;
+using Piglet.Newtonsoft.Json.Utilities;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -42,9 +42,9 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
-using Newtonsoft.Json.Tests.TestObjects;
+using Piglet.Newtonsoft.Json.Tests.TestObjects;
 
-namespace Newtonsoft.Json.Tests
+namespace Piglet.Newtonsoft.Json.Tests
 {
     [TestFixture]
     public class JsonTextWriterAsyncTests : TestFixtureBase

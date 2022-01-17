@@ -26,7 +26,7 @@ using System.Xml.Serialization;
 
 #endregion
 
-namespace Newtonsoft.Json.Tests
+namespace Piglet.Newtonsoft.Json.Tests
 {
     #region Contexts
     

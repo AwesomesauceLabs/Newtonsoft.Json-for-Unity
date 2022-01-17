@@ -23,8 +23,8 @@
     <PackageProjectUrl>https://www.newtonsoft.com/json</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
-    <RootNamespace>Newtonsoft.Json</RootNamespace>
-    <AssemblyName>Newtonsoft.Json</AssemblyName>
+    <RootNamespace>Piglet.Newtonsoft.Json</RootNamespace>
+    <AssemblyName>Piglet.Newtonsoft.Json</AssemblyName>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <Nullable>enable</Nullable>
     <MinClientVersion>2.12</MinClientVersion>

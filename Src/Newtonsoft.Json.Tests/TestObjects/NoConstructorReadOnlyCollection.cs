@@ -26,7 +26,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
-namespace Newtonsoft.Json.Tests.TestObjects
+namespace Piglet.Newtonsoft.Json.Tests.TestObjects
 {
 #if !NET20
     public class NoConstructorReadOnlyCollection<T> : ReadOnlyCollection<T>

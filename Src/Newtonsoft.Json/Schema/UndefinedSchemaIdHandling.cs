@@ -27,7 +27,7 @@ using System;
 
 #nullable disable
 
-namespace Newtonsoft.Json.Schema
+namespace Piglet.Newtonsoft.Json.Schema
 {
     /// <summary>
     /// <para>

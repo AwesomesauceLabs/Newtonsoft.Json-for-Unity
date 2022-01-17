@@ -23,11 +23,11 @@
 // OTHER DEALINGS IN THE SOFTWARE.
 #endregion
 
-using Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Piglet.Newtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 #endif
@@ -40,7 +40,7 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 using NUnit.Framework;
 #endif
 
-namespace Newtonsoft.Json.Tests.Documentation.Samples.Linq
+namespace Piglet.Newtonsoft.Json.Tests.Documentation.Samples.Linq
 {
     [TestFixture]
     public class QueryJsonIgnoreCase : TestFixtureBase

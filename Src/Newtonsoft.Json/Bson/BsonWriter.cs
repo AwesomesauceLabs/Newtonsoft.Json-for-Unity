@@ -31,13 +31,13 @@ using System.IO;
 using System.Numerics;
 #endif
 using System.Text;
-using Newtonsoft.Json.Utilities;
-using Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json.Utilities;
+using Piglet.Newtonsoft.Json.Linq;
 using System.Globalization;
 
 #nullable disable
 
-namespace Newtonsoft.Json.Bson
+namespace Piglet.Newtonsoft.Json.Bson
 {
     /// <summary>
     /// Represents a writer that provides a fast, non-cached, forward-only way of generating BSON data.

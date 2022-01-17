@@ -40,9 +40,9 @@ using NUnit.Framework;
 #if !(NET20 || NET35 || DNXCORE50)
 using System.Runtime.Serialization.Json;
 #endif
-using Newtonsoft.Json.Serialization;
+using Piglet.Newtonsoft.Json.Serialization;
 
-namespace Newtonsoft.Json.Tests.Serialization
+namespace Piglet.Newtonsoft.Json.Tests.Serialization
 {
     [TestFixture]
     public class WebApiIntegrationTests : TestFixtureBase

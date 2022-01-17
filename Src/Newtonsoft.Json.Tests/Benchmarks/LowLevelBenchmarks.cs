@@ -34,7 +34,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using BenchmarkDotNet.Attributes;
-using Newtonsoft.Json.Utilities;
+using Piglet.Newtonsoft.Json.Utilities;
 #if !PORTABLE || NETSTANDARD2_0
 using MemberTypes = System.Reflection.MemberTypes;
 using BindingFlags = System.Reflection.BindingFlags;
@@ -43,7 +43,7 @@ using MemberTypes = Newtonsoft.Json.Utilities.MemberTypes;
 using BindingFlags = Newtonsoft.Json.Utilities.BindingFlags;
 #endif
 
-namespace Newtonsoft.Json.Tests.Benchmarks
+namespace Piglet.Newtonsoft.Json.Tests.Benchmarks
 {
     public class LowLevelBenchmarks
     {

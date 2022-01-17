@@ -25,8 +25,8 @@
 
 #pragma warning disable 618
 using System.IO;
-using Newtonsoft.Json.Bson;
-using Newtonsoft.Json.Utilities;
+using Piglet.Newtonsoft.Json.Bson;
+using Piglet.Newtonsoft.Json.Utilities;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -36,7 +36,7 @@ using NUnit.Framework;
 
 #endif
 
-namespace Newtonsoft.Json.Tests.Converters
+namespace Piglet.Newtonsoft.Json.Tests.Converters
 {
     [TestFixture]
     public class ObjectIdConverterTests : TestFixtureBase

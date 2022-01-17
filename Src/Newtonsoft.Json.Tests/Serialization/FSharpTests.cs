@@ -38,7 +38,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.FSharp.Collections;
 
-namespace Newtonsoft.Json.Tests.Serialization
+namespace Piglet.Newtonsoft.Json.Tests.Serialization
 {
     [TestFixture]
     public class FSharpTests : TestFixtureBase

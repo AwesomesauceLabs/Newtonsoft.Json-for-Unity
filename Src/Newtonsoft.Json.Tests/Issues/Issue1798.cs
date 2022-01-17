@@ -23,14 +23,14 @@
 // OTHER DEALINGS IN THE SOFTWARE.
 #endregion
 
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Linq.JsonPath;
+using Piglet.Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json.Linq.JsonPath;
 using System;
 using System.Collections.Generic;
-using Newtonsoft.Json.Converters;
+using Piglet.Newtonsoft.Json.Converters;
 using System.Reflection;
 using System.Runtime.Versioning;
-using Newtonsoft.Json.Serialization;
+using Piglet.Newtonsoft.Json.Serialization;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -39,7 +39,7 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 using NUnit.Framework;
 #endif
 
-namespace Newtonsoft.Json.Tests.Issues
+namespace Piglet.Newtonsoft.Json.Tests.Issues
 {
     [TestFixture]
     public class Issue1798

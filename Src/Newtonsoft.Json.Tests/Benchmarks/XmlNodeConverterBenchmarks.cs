@@ -34,9 +34,9 @@ using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Linq;
 using BenchmarkDotNet.Attributes;
-using Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json.Linq;
 
-namespace Newtonsoft.Json.Tests.Benchmarks
+namespace Piglet.Newtonsoft.Json.Tests.Benchmarks
 {
     public class XmlNodeConverterBenchmarks
     {

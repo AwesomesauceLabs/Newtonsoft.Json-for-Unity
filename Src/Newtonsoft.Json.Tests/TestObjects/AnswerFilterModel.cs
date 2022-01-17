@@ -26,13 +26,13 @@
 using System;
 using System.Collections;
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Piglet.Newtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 
 #endif
 
-namespace Newtonsoft.Json.Tests.TestObjects
+namespace Piglet.Newtonsoft.Json.Tests.TestObjects
 {
 #if !(PORTABLE || DNXCORE50) || NETSTANDARD1_3 || NETSTANDARD2_0
     [Serializable]

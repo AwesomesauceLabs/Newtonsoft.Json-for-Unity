@@ -37,11 +37,11 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
-using Newtonsoft.Json.Bson;
+using Piglet.Newtonsoft.Json.Bson;
 using System.IO;
-using Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json.Linq;
 
-namespace Newtonsoft.Json.Tests.Bson
+namespace Piglet.Newtonsoft.Json.Tests.Bson
 {
     [TestFixture]
     public class BsonReaderAsyncTests : TestFixtureBase

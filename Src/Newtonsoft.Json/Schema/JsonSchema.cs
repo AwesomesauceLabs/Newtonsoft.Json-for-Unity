@@ -26,13 +26,13 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Utilities;
+using Piglet.Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json.Utilities;
 using System.Globalization;
 
 #nullable disable
 
-namespace Newtonsoft.Json.Schema
+namespace Piglet.Newtonsoft.Json.Schema
 {
     /// <summary>
     /// <para>

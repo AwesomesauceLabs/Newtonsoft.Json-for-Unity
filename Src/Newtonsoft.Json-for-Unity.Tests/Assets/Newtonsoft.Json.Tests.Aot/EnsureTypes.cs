@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Numerics;
-using Newtonsoft.Json.Utilities;
+using Piglet.Newtonsoft.Json.Utilities;
 using NUnit.Framework;
 using UnityEngine;
 
-namespace Newtonsoft.Json.Tests.Aot
+namespace Piglet.Newtonsoft.Json.Tests.Aot
 {
     [TestFixture]
     public class EnsureTypes

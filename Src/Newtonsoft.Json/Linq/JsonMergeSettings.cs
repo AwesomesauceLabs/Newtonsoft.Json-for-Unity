@@ -25,7 +25,7 @@
 
 using System;
 
-namespace Newtonsoft.Json.Linq
+namespace Piglet.Newtonsoft.Json.Linq
 {
     /// <summary>
     /// Specifies the settings used when merging JSON.

@@ -26,7 +26,7 @@
 #if !(NET35 || NET20)
 using System.Collections.Concurrent;
 
-namespace Newtonsoft.Json.Tests.TestObjects
+namespace Piglet.Newtonsoft.Json.Tests.TestObjects
 {
     [JsonObject(MemberSerialization.OptIn)]
     public class GameObject

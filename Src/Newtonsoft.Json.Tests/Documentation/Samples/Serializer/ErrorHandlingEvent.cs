@@ -26,8 +26,8 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using Newtonsoft.Json.Converters;
-using Newtonsoft.Json.Serialization;
+using Piglet.Newtonsoft.Json.Converters;
+using Piglet.Newtonsoft.Json.Serialization;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -37,7 +37,7 @@ using NUnit.Framework;
 
 #endif
 
-namespace Newtonsoft.Json.Tests.Documentation.Samples.Serializer
+namespace Piglet.Newtonsoft.Json.Tests.Documentation.Samples.Serializer
 {
     [TestFixture]
     public class ErrorHandlingEvent : TestFixtureBase

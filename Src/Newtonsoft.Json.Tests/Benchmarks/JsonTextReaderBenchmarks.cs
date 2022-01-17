@@ -29,9 +29,9 @@ using System.IO;
 using System.Linq;
 using System.Xml;
 using BenchmarkDotNet.Attributes;
-using Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json.Linq;
 
-namespace Newtonsoft.Json.Tests.Benchmarks
+namespace Piglet.Newtonsoft.Json.Tests.Benchmarks
 {
     public class JsonTextReaderBenchmarks
     {

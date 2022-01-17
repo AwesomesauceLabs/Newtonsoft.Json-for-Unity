@@ -39,11 +39,11 @@ using System.IO;
 #if !PORTABLE || NETSTANDARD1_3 || NETSTANDARD2_0
 using System.Numerics;
 #endif
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Tests.Serialization;
-using Newtonsoft.Json.Tests.TestObjects;
+using Piglet.Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json.Tests.Serialization;
+using Piglet.Newtonsoft.Json.Tests.TestObjects;
 
-namespace Newtonsoft.Json.Tests.Linq
+namespace Piglet.Newtonsoft.Json.Tests.Linq
 {
     [TestFixture]
     public class JTokenReaderAsyncTests : TestFixtureBase

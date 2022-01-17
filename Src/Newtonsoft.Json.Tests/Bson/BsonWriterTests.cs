@@ -38,21 +38,21 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
-using Newtonsoft.Json.Bson;
+using Piglet.Newtonsoft.Json.Bson;
 using System.IO;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Utilities;
-using Newtonsoft.Json.Tests.TestObjects;
+using Piglet.Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json.Utilities;
+using Piglet.Newtonsoft.Json.Tests.TestObjects;
 using System.Globalization;
-using Newtonsoft.Json.Tests.TestObjects.GeoCoding;
+using Piglet.Newtonsoft.Json.Tests.TestObjects.GeoCoding;
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Piglet.Newtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 
 #endif
 
-namespace Newtonsoft.Json.Tests.Bson
+namespace Piglet.Newtonsoft.Json.Tests.Bson
 {
     [TestFixture]
     public class BsonWriterTests : TestFixtureBase

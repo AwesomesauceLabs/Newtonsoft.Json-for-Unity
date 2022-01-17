@@ -51,28 +51,28 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
-using Newtonsoft.Json;
+using Piglet.Newtonsoft.Json;
 using System.IO;
 using System.Collections;
 using System.Xml;
 using System.Xml.Serialization;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
-using Newtonsoft.Json.Bson;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Converters;
+using Piglet.Newtonsoft.Json.Bson;
+using Piglet.Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json.Converters;
 #if !(NET20 || NET35)
 using System.Runtime.Serialization.Json;
 #endif
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Tests.Linq;
-using Newtonsoft.Json.Tests.TestObjects;
-using Newtonsoft.Json.Tests.TestObjects.Events;
-using Newtonsoft.Json.Tests.TestObjects.GeoCoding;
-using Newtonsoft.Json.Tests.TestObjects.Organization;
+using Piglet.Newtonsoft.Json.Serialization;
+using Piglet.Newtonsoft.Json.Tests.Linq;
+using Piglet.Newtonsoft.Json.Tests.TestObjects;
+using Piglet.Newtonsoft.Json.Tests.TestObjects.Events;
+using Piglet.Newtonsoft.Json.Tests.TestObjects.GeoCoding;
+using Piglet.Newtonsoft.Json.Tests.TestObjects.Organization;
 using System.Runtime.Serialization;
 using System.Globalization;
-using Newtonsoft.Json.Utilities;
+using Piglet.Newtonsoft.Json.Utilities;
 using System.Reflection;
 #if !NET20
 using System.Xml.Linq;
@@ -83,7 +83,7 @@ using System.Linq.Expressions;
 using System.Dynamic;
 #endif
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Piglet.Newtonsoft.Json.Utilities.LinqBridge;
 using Action = Newtonsoft.Json.Serialization.Action;
 #else
 using System.Linq;
@@ -93,7 +93,7 @@ using System.Drawing;
 
 #endif
 
-namespace Newtonsoft.Json.Tests.Serialization
+namespace Piglet.Newtonsoft.Json.Tests.Serialization
 {
     [TestFixture]
     public class JsonSerializerTest : TestFixtureBase

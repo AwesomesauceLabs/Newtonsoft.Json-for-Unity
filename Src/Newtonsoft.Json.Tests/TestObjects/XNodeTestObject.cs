@@ -30,7 +30,7 @@ using System.Text;
 using System.Xml.Linq;
 #endif
 
-namespace Newtonsoft.Json.Tests.TestObjects
+namespace Piglet.Newtonsoft.Json.Tests.TestObjects
 {
 #if !NET20
     public class XNodeTestObject

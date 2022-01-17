@@ -25,9 +25,9 @@
 
 using System.Collections.ObjectModel;
 using System.Runtime.Serialization;
-using Newtonsoft.Json.Serialization;
+using Piglet.Newtonsoft.Json.Serialization;
 
-namespace Newtonsoft.Json.Tests.TestObjects
+namespace Piglet.Newtonsoft.Json.Tests.TestObjects
 {
     public class ListErrorObjectCollection : Collection<ListErrorObject>
     {

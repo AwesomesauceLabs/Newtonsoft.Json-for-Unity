@@ -33,7 +33,7 @@ using System.Data.Linq;
 using System.Data.SqlTypes;
 #endif
 using System.Text;
-using Newtonsoft.Json.Converters;
+using Piglet.Newtonsoft.Json.Converters;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -43,7 +43,7 @@ using NUnit.Framework;
 
 #endif
 
-namespace Newtonsoft.Json.Tests.Converters
+namespace Piglet.Newtonsoft.Json.Tests.Converters
 {
     [TestFixture]
     public class GenericJsonConverterTests : TestFixtureBase

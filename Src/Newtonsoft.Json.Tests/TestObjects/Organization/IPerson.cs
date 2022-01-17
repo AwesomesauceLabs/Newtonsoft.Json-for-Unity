@@ -25,7 +25,7 @@
 
 using System;
 
-namespace Newtonsoft.Json.Tests.TestObjects.Organization
+namespace Piglet.Newtonsoft.Json.Tests.TestObjects.Organization
 {
     public interface IPerson
     {

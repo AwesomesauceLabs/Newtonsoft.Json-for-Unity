@@ -23,7 +23,7 @@
 // OTHER DEALINGS IN THE SOFTWARE.
 #endregion
 
-namespace Newtonsoft.Json.Tests.TestObjects.GeoCoding
+namespace Piglet.Newtonsoft.Json.Tests.TestObjects.GeoCoding
 {
     public class AdministrativeArea
     {

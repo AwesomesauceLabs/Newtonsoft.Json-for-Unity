@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Newtonsoft.Json.Linq
+namespace Piglet.Newtonsoft.Json.Linq
 {
     /// <summary>
     /// Specifies how null value properties are merged.

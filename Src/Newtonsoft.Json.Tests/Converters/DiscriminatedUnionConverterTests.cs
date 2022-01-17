@@ -33,9 +33,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Newtonsoft.Json.Tests.TestObjects;
-using Newtonsoft.Json.Tests.TestObjects.GeometricForms;
-using Newtonsoft.Json.Tests.TestObjects.Money;
+using Piglet.Newtonsoft.Json.Tests.TestObjects;
+using Piglet.Newtonsoft.Json.Tests.TestObjects.GeometricForms;
+using Piglet.Newtonsoft.Json.Tests.TestObjects.Money;
 #if DNXCORE50
 using Xunit;
 using Test = Xunit.FactAttribute;
@@ -44,7 +44,7 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 using NUnit.Framework;
 #endif
 
-namespace Newtonsoft.Json.Tests.Converters
+namespace Piglet.Newtonsoft.Json.Tests.Converters
 {
     [TestFixture]
     public class DiscriminatedUnionConverterTests : TestFixtureBase

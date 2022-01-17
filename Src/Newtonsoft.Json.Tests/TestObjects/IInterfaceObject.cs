@@ -24,9 +24,9 @@
 #endregion
 
 using System;
-using Newtonsoft.Json.Converters;
+using Piglet.Newtonsoft.Json.Converters;
 
-namespace Newtonsoft.Json.Tests.TestObjects
+namespace Piglet.Newtonsoft.Json.Tests.TestObjects
 {
     [JsonObject(MemberSerialization = MemberSerialization.OptIn)]
     public interface IInterfaceObject

@@ -29,8 +29,8 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
+using Piglet.Newtonsoft.Json;
+using Piglet.Newtonsoft.Json.Linq;
 using System.Xml;
 #if !NET20
 using System.Xml.Linq;
@@ -43,7 +43,7 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 using NUnit.Framework;
 #endif
 
-namespace Newtonsoft.Json.Tests.Issues
+namespace Piglet.Newtonsoft.Json.Tests.Issues
 {
     [TestFixture]
     public class Issue1396 : TestFixtureBase

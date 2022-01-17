@@ -28,7 +28,7 @@ using System;
 using System.Drawing;
 #endif
 
-namespace Newtonsoft.Json.Tests.TestObjects
+namespace Piglet.Newtonsoft.Json.Tests.TestObjects
 {
 #if !(DNXCORE50 || UNITY_LTS)
     public class MetroColorConverter : JsonConverter
