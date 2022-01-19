@@ -187,7 +187,7 @@ try {
             mkdir -p Temp/Build
             rm -rf Temp/Build/*
             BUILD_DESTINATION="`$(pwd)/Temp/Build" `$SCRIPTS/build.sh $build
-            BUILD_DESTINATION=`${BUILD_DESTINATION:-"`${BUILD_DESTINATION_BASE:?"Build output path required."}/Newtonsoft.Json $build"}
+            BUILD_DESTINATION=`${BUILD_DESTINATION:-"`${BUILD_DESTINATION_BASE:?"Build output path required."}/Newtonsoft.Json-$build"}
             mkdir -vp "`$BUILD_DESTINATION"
             cp -fvrt "`$BUILD_DESTINATION" $(($CopyFiles | ForEach-Object {Join-Path "`$(pwd)/Temp/Build" $_}) -join " ")
 "@
