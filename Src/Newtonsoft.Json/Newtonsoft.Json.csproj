@@ -36,8 +36,19 @@
   </PropertyGroup>
   <ItemGroup>
     <None Remove="**\*.orig" />
+    <!--
+    NOTE: To configure stripping rules for WebGL/IL2CPP builds, you can
+    embed a link.xml inside the DLL file (i.e. an "embedded resource")
+    and Unity will treat it just like a link.xml found under the Assets folder
+    In order for this to work correctly, Unity requires the `LogicalName` of
+    the embedded link.xml to match the name of the assembly
+    ("Piglet.Newtonsoft.Json" in this case).
+
+    For further details, see:
+    https://forum.unity.com/threads/the-current-state-of-link-xml-in-packages.995848/#post-6545491
+    -->
     <EmbeddedResource Include="Resources\link.xml">
-      <LogicalName>Newtonsoft.Json.xml</LogicalName>
+      <LogicalName>Piglet.Newtonsoft.Json.xml</LogicalName>
     </EmbeddedResource>
     <None Include="..\..\LICENSE.md" Pack="true" PackagePath="LICENSE.md" />
     <None Include="$(PackageIconFullPath)" Pack="true" PackagePath="\" />
